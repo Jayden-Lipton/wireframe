@@ -3,18 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Styled Design</title>
+  <title>Jayden Natrop Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="name-box">
-      Jayden Natrop
+
+  <div class="naamheader">
+    <p>Jayden Natrop</p>
+  </div>
+
+ 
+  <div class="skills-container">
+    <div class="skillbox">
+      <img src="img/icons8-command-line-50.png" alt="Commandline Logo" class="skill-logo">
+      Commandline
     </div>
-    <div class="divider"></div>
-    <div class="skills-box">
-      Mijn skills
+    <div class="skillbox">
+      <img src="img/icons8-javascript-logo-50.png" alt="JavaScript Logo" class="skill-logo">
+      JavaScript
+    </div>
+    <div class="skillbox">
+      <img src="img/icons8-html-logo-50.png" alt="HTML Logo" class="skill-logo">
+      HTML
+    </div>
+    <div class="skillbox">
+      <img src="img/icons8-css-50.png" alt="CSS Logo" class="skill-logo">
+      CSS
+    </div>
+    <div class="skillbox">
+      <img src="img/icons8-c-sharp-50.png" alt="C# Logo" class="skill-logo">
+      C#
+    </div>
+    <div class="skillbox">
+      <img src="img/icons8-github-50.png" alt="Git/GitHub Logo" class="skill-logo">
+      Git/GitHub
     </div>
   </div>
+
+  <div class="buisje">
+    <p>
+      Wat ik later wil bereiken, is dat ik alle belangrijke programmeertalen goed beheers en dat ik ze met vertrouwen kan gebruiken. Mijn doel is om efficiënter te kunnen werken, problemen snel op te lossen en zelfstandig complexe projecten op te pakken. 
+    </p>
+    <p>
+      Naast de technische vaardigheden wil ik mezelf verder ontwikkelen in soft skills zoals teamwork en communicatie. Ik vind het belangrijk om goed samen te kunnen werken en duidelijk mijn ideeën over te brengen, vooral als je met anderen aan projecten werkt.
+    </p>
+    <p>
+      Ook wil ik beter worden in time management, zodat ik georganiseerd werk en deadlines zonder stress haal. Uiteindelijk wil ik niet alleen een sterke programmeur zijn, maar ook een goede teamspeler die waarde toevoegt aan elk project.
+    </p>
+  </div>
+
+  <div class="slider-container">
+    
+    <div class="slider">
+      <img src="img/planktonaugh.jpg" alt="Image 1" class="slide">
+      <img src="img/spongebob.png" alt="Image 2" class="slide">
+      <img src="img/mrkrabs.png" alt="Image 3" class="slide">
+    </div>
+
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
